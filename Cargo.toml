@@ -1,0 +1,16 @@
+[package]
+name = "lau-glue"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-glue"
+description = "Gluing 108 mathematical islands into a continent — type bridges, theorem bridges, and the topos structure the mathematics wants to be"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+petgraph = "0.7"
+
+[dev-dependencies]
+approx = "0.5"
